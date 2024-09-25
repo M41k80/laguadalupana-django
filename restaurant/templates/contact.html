@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<div class="container-fluid">
+    <div class="home">
+
+    <picture class="hours">
+        <img src="{% static 'restaurant/Open.gif' %}" alt="contact-image">
+    </picture>
+
+        <picture class="hours2">
+            <img src="{% static 'restaurant/Order.gif' %}" alt="contacts-image" >
+            
+        </picture>
+        <a class="button1" href="tel:+4802316805">Call Now</a>
+
+    </div>
+ 
+    <div class="reviews">
+    
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-3e39d0bc-739e-4cc4-bf9c-db538f241cb4"></div>
+    </div> 
+
+    <div class="maps">
+        <picture class="hours2">
+            <img src="{% static 'restaurant/comollegar.gif' %}" alt="contacts-image" >
+            
+        </picture>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d108469.64458321365!2d-102.4411363!3d31.8338046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fbcbe4c356a879%3A0x23569a04feeb9340!2sRestaurant%20La%20Guadalupana!5e0!3m2!1ses-419!2sus!4v1716167059374!5m2!1ses-419!2sus" width="350" height="350" style="border-raduis:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+
+</div>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Mexicana";
+    src: url("Mexicanahollow.ttf") format("truetype");
+
+}
+
+body {
+    background-color: #0A0136;
+}
+.header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.navegacion {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+   
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 4rem;
+    color: #F9D030;
+   
+}
+
+.button1 {
+    display: block;
+    margin-left: 10px;
+    padding: 1rem;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 30px -10px;
+    background-image: linear-gradient(144deg,#F985E4,60%,#0A0136);
+    box-sizing: border-box;
+    color: #F9D030;
+    opacity: 4;
+}
+.button2 {
+    display: block;
+    margin-left: 10px;
+    padding: 1rem;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 30px -10px;
+    background-image: linear-gradient(144deg,#F985E4,60%,#0A0136);
+    box-sizing: border-box;
+    color: #F9D030;
+    opacity: 4;
+}
+.button3 {
+    display: block;
+    margin-left: 10px;
+    padding: 1rem;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 30px -10px;
+    background-image: linear-gradient(144deg,#F985E4,60%,#0A0136);
+    box-sizing: border-box;
+    color: #F9D030;
+    opacity: 4;
+}
+.button4 {
+    display: block;
+    margin-left: 10px;
+    padding: 1rem;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 30px -10px;
+    background-image: linear-gradient(144deg,#F985E4,60%,#0A0136);
+    box-sizing: border-box;
+    color: #F9D030;
+    opacity: 4;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: #F9D030;
+
+}
+
+.title {
+    color: #F9D030;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    font-family: "Mexicana";
+    text-shadow: 2px 2px 5px rgb(208, 28, 15);
+
+}
+
+.image-index {
+    
+   padding-bottom: 2rem;
+     
+}
+
+.image-index img {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+.image-index a img:hover {
+    box-shadow: 2px 2px 2px 2px rgba(232, 225, 13, 0.5);
+    transform: scale(1.5);
+  }
+
+.parrafo {
+    font-family: Poppins-Light;
+    text-align: justify;
+    align-items: center;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+.menu {
+   
+    padding-bottom: 2rem;
+}
+
+.menu img {
+    
+   
+    width: 400px;
+    height: 200px;
+    
+}
+
+.menus img {
+    width: 400px;
+    height: 600px;
+    transition: transform .2s;
+   
+
+}
+
+.menus img:hover {
+    box-shadow: 2px 2px 2px 2px rgba(232, 225, 13, 0.5);
+    transform: scale(1.5);
+}
+
+
+
+.gallerys img:hover {
+    box-shadow: 2px 2px 2px 2px rgba(232, 225, 13, 0.5);
+    transform: scale(1.5);
+}
+.hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: #F9D030;
+
+}
+.hours img {
+    width: 400px;
+    height: 300px;
+}
+
+.hours2 img {
+    width: 400px;
+    height: 300px;
+}
+
+.hours img:hover {
+    box-shadow: 2px 2px 2px 2px rgba(232, 225, 13, 0.5);
+    transform: scale(1.5);
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(144deg,#F985E4,60%,#0A0136);
+    box-shadow: 5px 10px 10px -5px;
+    color: #F9D030;
+    border-radius: 25px;
+
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+   
+}
+
