@@ -1,1 +1,1 @@
-web: gunicorn restaurant.wsgi
+web: python3 manage.py collectstatic && gunicorn restaurant.wsgi
